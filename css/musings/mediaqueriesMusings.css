@@ -1,0 +1,56 @@
+@media (min-width: 3840px) {
+  .contenedorPrincipal {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 2560px) {
+  .contenedorPrincipal {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1240px) {
+  .contenedorPrincipal {
+    width: 100%;
+  }
+
+  .contenedorContenido {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    margin-bottom: 0;
+  }
+
+  nav {
+    padding: 1.5rem 0;
+  }
+
+  .lista li {
+    padding: 0.5rem 0.5rem;
+    display: block;
+  }
+
+  .contenedorContenidoTexto {
+    max-width: 100%;
+  }
+
+  footer ul li {
+    font-size: 0.9em;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .contenedorContenidoTexto {
+    padding: 0;
+  }
+}
+
