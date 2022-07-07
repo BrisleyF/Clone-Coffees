@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedorPrincipal {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.contenedorContenido {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.contenedorEncabezado {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 4.5em;
+  font-weight: 100;
+  margin-bottom: 1.8rem;
+}
+
+.titulo span:hover {
+  color: #38c3ff;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  padding: 1.8rem 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1955fa;
+}
+
+nav ul li a:hover {
+  color: #38c3ff;
+}
+
+.contenedorUpdate {
+  text-align: center;
+  padding-bottom: 7rem;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.contenedorUpdateContenido {
+  max-width: 858px;
+  margin: 0 auto;
+
+}
+
+.contenedorUpdateContenido h1 {
+  font-size: 2.2em;
+  font-weight: 100;
+  margin-bottom: 1.8rem;
+}
+
+.contenedorUpdateContenido h1 a:hover {
+  color: #38c3ff;
+}
+
+.contenedorUpdateContenido p {
+  font-size: 0.9em;
+  font-weight: 100;
+  line-height: 1.7em;
+  text-align: justify;
+  color: #424242;
+  word-wrap: break-word;
+}
+
+.footer {
+  margin-top: 2.5rem;
+  padding-top: 0.6rem;
+}
+
+.footer ul li {
+  color: #a3a3a3;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+
+.footer ul li a:hover {
+  color: #38c3ff;
+}
+
+.contenedorImagen {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.contenedorContenidoTexto {
+  max-width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.contenedorContenidoTexto h1 {
+  font-size: 2.2em;
+  font-weight: 100;
+  margin-bottom: 1.8rem;
+}
+
+.contenedorSpan {
+  margin-bottom: 1.8rem;
+}
+
+.contenedorSpan span {
+  color: #a3a3a3;
+}
+
+.contenedorSpan span a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+
+.contenedorSpan span a:hover {
+  color: #38c3ff;
+}
+
+.contenedorInfo {
+  text-align: justify;
+  padding: 0 1rem 1rem 1rem;
+  line-height: 1.7rem;
+}
+
+.contenedorInfo a {
+  text-decoration: none;
+  color: #38c3ff;
+}
+
+.contenedorInfo a:hover {
+  color: #a3a3a3;
+}
+
+.contenedorLinea {
+  padding: 1rem;
+}
+
+.contenedorLinea hr{
+  margin: 1rem 0;
+}
+
+.contenedorParrafos {
+  padding: 1rem;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
+
+.contenedorParrafos p {
+  margin-bottom: 1.8rem;
+  color: #424242;
+}
+
+.contenedorParrafos a {
+  color: #38c3ff;
+  text-decoration: none;
+}
+
+.contenedorParrafos a:hover {
+  color: #a3a3a3;
+}
+
+.contenedorParrafos ul {
+  text-align: center;
+}
+
+.iconos {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.iconos a {
+  text-decoration: none;
+  color: #1955fa;
+  padding: 0.5rem;
+}
+
+.iconos a:hover {
+  color: #f942ff;
+}
+
+blockquote {
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.8rem;
+}
+
