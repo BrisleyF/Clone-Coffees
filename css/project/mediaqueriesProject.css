@@ -1,18 +1,32 @@
-@media (min-width: 2500px) {
+@media (min-width: 3840px) {
   .contenedorPrincipal {
     width: 30%;
     margin: 0 auto;
   }
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 2560px) {
   .contenedorPrincipal {
     width: 80%;
     margin: 0 auto;
   }
 }
 
+@media (max-width: 1240px) {
+  .contenedorContenido {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 @media (max-width: 520px) {
+  .contenedorPrincipal {
+    width: 100%;
+    margin: 0;
+    padding: 1.3rem;
+  }
+
   nav {
     padding: 1.5rem 0;
   }
@@ -29,18 +43,6 @@
 }
 
 @media (max-width: 320px) {
-  .contenedorPrincipal {
-    width: 100%;
-    margin: 0;
-    padding: 1.3rem;
-  }
-
-  .contenedorContenido {
-    width: auto;
-    margin: auto;
-    padding: 0;
-  }
-
   .titulo {
     margin-bottom: 0;
   }
@@ -72,6 +74,5 @@
   .contenedorParrafos {
     width: 100%;
     margin: 0;
-    
   }
 }
