@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedorPrincipal {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.contenedorContenido {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 12rem;
+}
+
+.contenedorEncabezado {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 4.5em;
+  font-weight: 100;
+  margin-bottom: 1.8rem;
+}
+
+.titulo span:hover {
+  color: #38c3ff;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  width: auto;
+  padding: 1.8rem 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1955fa;
+}
+
+nav ul li a:hover {
+  color: #38c3ff;
+}
+
+.iconos {
+  font-size: 2em;
+  text-align: right;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.iconos a {
+  text-decoration: none;
+  color: #000;
+}
+
+.iconos a:hover {
+  color: #a3a3a3;
+}
+
+.contenedorImagen {
+  padding: 1rem;
+  text-align: center;
+}
+
+.contenedorFormulario {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+.contenedorFormulario header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contenedorFormulario header h2 {
+  margin-bottom: 1rem;
+}
+
+.contenedorFormulario header p {
+  margin: 1rem 0;
+}
+
+.contenedorFormulario .formulario {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.contenedorFormulario .formulario input {
+  padding: 0.9rem;
+  margin: 0.5rem;
+  border: 1px solid rgba(0,0,0,.12);
+}
+
+.contenedorFormulario .formulario button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  background-color: #000;
+  color: #f2f2f2;
+  padding: 1rem 2rem;
+  border-radius: 300px;
+  border: 2px solid #000;
+}
+
+.iconosf {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.iconosf a {
+  text-decoration: none;
+  color: #1955fa;
+  padding: 0.5rem;
+}
+
+.iconosf a:hover {
+  color: #f942ff;
+}
+
