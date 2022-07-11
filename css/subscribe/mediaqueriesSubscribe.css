@@ -1,0 +1,50 @@
+@media (min-width: 2500px) {
+  .contenedorPrincipal {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .contenedorContenido {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 12rem;
+  }
+}
+
+@media (max-width: 595px) {
+  .titulo {
+    margin-bottom: 0rem;
+  }
+
+  nav {
+    padding: 1rem 0;
+  }
+
+  ul li {
+    display: block;
+    padding: 0.5rem 0;
+  }
+
+  .iconos {
+    font-size: 1.5em;
+    padding: 0;
+  }
+
+  .contenedorFormulario header {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contenedorFormulario .formulario {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contenedorFormulario .formulario form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 6px 0;
+  }
+}
